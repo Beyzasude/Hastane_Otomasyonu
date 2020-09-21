@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="472baed676864a5ea2cddf8d0e1d4e4e" Name="Diagram1">
+        <EntityTypeShape EntityType="HastaneOtomasyonuGüncelModel.DoktorBilgileri" Width="1.5" PointX="3" PointY="5" />
+        <EntityTypeShape EntityType="HastaneOtomasyonuGüncelModel.HastaBilgileri" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="HastaneOtomasyonuGüncelModel.HastaIslemleri" Width="1.5" PointX="5.25" PointY="4.75" />
+        <EntityTypeShape EntityType="HastaneOtomasyonuGüncelModel.Ilac" Width="1.5" PointX="8.25" PointY="2.5" />
+        <EntityTypeShape EntityType="HastaneOtomasyonuGüncelModel.PersonelGirisi" Width="1.5" PointX="0.75" PointY="8.75" />
+        <EntityTypeShape EntityType="HastaneOtomasyonuGüncelModel.Poliklinikler" Width="1.5" PointX="0.75" PointY="5.5" />
+        <EntityTypeShape EntityType="HastaneOtomasyonuGüncelModel.Recete" Width="1.5" PointX="8.25" PointY="5.25" />
+        <EntityTypeShape EntityType="HastaneOtomasyonuGüncelModel.ReceteIlac" Width="1.5" PointX="10.5" PointY="5.25" />
+        <EntityTypeShape EntityType="HastaneOtomasyonuGüncelModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="9.75" />
+        <AssociationConnector Association="HastaneOtomasyonuGüncelModel.FK_DoktorBilgileri_Poliklinikler" />
+        <AssociationConnector Association="HastaneOtomasyonuGüncelModel.FK_HastaIslemleri_DoktorBilgileri" />
+        <AssociationConnector Association="HastaneOtomasyonuGüncelModel.FK_Recete_DoktorBilgileri1" />
+        <AssociationConnector Association="HastaneOtomasyonuGüncelModel.FK_HastaIslemleri_HastaBilgileri" />
+        <AssociationConnector Association="HastaneOtomasyonuGüncelModel.FK_Recete_HastaBilgileri" />
+        <AssociationConnector Association="HastaneOtomasyonuGüncelModel.FK_HastaIslemleri_Poliklinikler" />
+        <AssociationConnector Association="HastaneOtomasyonuGüncelModel.FK_ReceteIlac_Ilac" />
+        <AssociationConnector Association="HastaneOtomasyonuGüncelModel.FK_ReceteIlac_Recete" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
